@@ -1,0 +1,25 @@
+{
+    "name": "martinpl/blade-extra-syntax",
+    "homepage": "https://github.com/martinpl/blade-extra-syntax",
+    "autoload": {
+        "psr-4": {
+            "MartinPL\\BladeExtraSyntax\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcin Panniak",
+            "email": "martinplr@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MartinPL\\BladeExtraSyntax\\PackageServiceProvider"
+            ],
+            "aliases": {
+                "BladeExtraSyntax": "MartinPL\\BladeExtraSyntax\\BladeExtraSyntax"
+            }
+        }
+    }
+}
